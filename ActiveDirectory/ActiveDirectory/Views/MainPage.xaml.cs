@@ -15,7 +15,7 @@ namespace ActiveDirectory.Views
 	{
 	    public static string AppId = "Application Id";
 	    public static string Authority = "https://login.windows.net/common";
-	    public static string ReturnUri = "com.companyname.ActiveDirectory://Views/MainPage";
+	    public static string ReturnUri = "Your return URL";
 	    private const string GraphResourceUri = "https://graph.windows.net";
 
         public MainPage ()
